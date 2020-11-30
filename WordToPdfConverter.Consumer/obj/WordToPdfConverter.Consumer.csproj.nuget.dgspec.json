@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\XpayDev\\source\\repos\\WordToPdfConverter\\WordToPdfConverter.Consumer\\WordToPdfConverter.Consumer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\XpayDev\\source\\repos\\WordToPdfConverter\\WordToPdfConverter.Consumer\\WordToPdfConverter.Consumer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\XpayDev\\source\\repos\\WordToPdfConverter\\WordToPdfConverter.Consumer\\WordToPdfConverter.Consumer.csproj",
+        "projectName": "WordToPdfConverter.Consumer",
+        "projectPath": "C:\\Users\\XpayDev\\source\\repos\\WordToPdfConverter\\WordToPdfConverter.Consumer\\WordToPdfConverter.Consumer.csproj",
+        "packagesPath": "C:\\Users\\XpayDev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\XpayDev\\source\\repos\\WordToPdfConverter\\WordToPdfConverter.Consumer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\XpayDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/Hepi/c033b59f-92c9-4560-8b21-dad16aec1174/_packaging/Nodi/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            },
+            "Spire.Doc": {
+              "target": "Package",
+              "version": "[8.11.15, )"
+            },
+            "System.Security.Permissions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
